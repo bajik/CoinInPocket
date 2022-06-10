@@ -1,0 +1,82 @@
+.credit-calculator__need input {
+   width: 300px;
+}
+
+.credit-calculator__need {
+   & input[type=range] {
+      -webkit-appearance: none;
+      width: 300px - 16px;
+      background: transparent;
+      position: relative;
+      margin: 10px;     
+   }
+
+   & input:before {
+      content: '500';
+      position: absolute;
+      left: -7px;
+      bottom: -30px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      color: #7F7E83;
+   }
+
+   & input:after {
+      content: '15000';
+      position: absolute;
+      right: -7px;
+      bottom: -30px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 1rem;
+      line-height: 1.25rem;
+      color: #7F7E83;
+   }
+
+   & input[type=range]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      // -----------------------------------
+      border: 2px solid #FFA27D;
+      height: 24px;
+      width: 24px;
+      border-radius: 50%;
+      background: #fff url("../img/credit-calc/01.svg") no-repeat center center;
+      cursor: pointer;
+      margin-top: -10px;
+      position: relative;
+   }
+
+   & input[type=range]::-moz-range-thumb {
+
+   }
+
+   & input[type=range]::-ms-thumb {
+
+   }
+
+   & input[type=range]:focus {
+      outline: none;
+   }
+
+   & input[type=range]::-ms-track {
+      width: 100%;
+      cursor: pointer;
+      background: transparent; 
+      border-color: transparent;
+      color: transparent;
+   }
+
+   & input[type=range]::-webkit-slider-runnable-track {
+      width: 100%;
+      height: 4px;
+      background: #FFA27D;
+      cursor: pointer;
+      border-radius: 3px 3px 0 0;
+   }
+
+   & input[type=range]:focus::-webkit-slider-runnable-track {
+      background: #FFA27D;
+   }
+}

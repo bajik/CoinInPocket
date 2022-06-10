@@ -1,0 +1,29 @@
+* {
+   padding: 0px; 
+   margin: 0px; 
+   border: 0px;
+}
+
+*, *:before, *:after {
+   box-sizing: border-box;
+}
+
+:focus, :active {
+   outline: none;
+}
+a:focus, a:active {
+   outline: none;
+}
+aside, nav, footer, header, section {
+   display: block;
+}
+a, a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}

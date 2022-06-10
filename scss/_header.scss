@@ -1,0 +1,89 @@
+.header {
+   background-color: #fff;
+}
+.header__container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   padding: 0 40px;
+   @media (max-width: 64em) {
+      padding: 0 20px;
+   }
+   margin: 0 auto;
+   max-width: 75.5rem;
+}
+.header__top {
+   border-bottom: 1px solid #E5E5F4;
+}
+.header__logo {
+   padding: 16px 0;
+}
+.header__link {
+}
+.header__logo-image {
+}
+.header__column {
+}
+.header__phone {
+   font-size: 1.125rem;
+   line-height: 1.75rem;
+   color: #7F7E83;
+   padding-right: 1.5rem;
+
+   &:hover, &:active {
+      color: #5151A8;
+   }
+}
+.header__personal-button {
+   display:  inline-block;
+   color: #57B18A;
+   font-weight: 600;
+   font-size: 1.125rem;
+   line-height: 1.75rem;
+   border: 1px solid #A6A6DA;
+   border-radius: 8px;
+   padding: 9px 24px;
+}
+.header__personal-button span {
+   /*display: inline-block;
+   background: url(../dist/img/header/icons/01.svg) no-repeat center center;
+   width: 40px;
+   height: 1.125rem;*/
+}
+
+.header__menu {
+   padding: 8px 0 11px;
+   border-bottom: 1px solid #E5E5F4;
+}
+.main-menu {
+}
+.main-menu__container {
+   padding: 0 40px;
+   @media (max-width: 64em) {
+      padding: 0 20px;
+   }
+   margin: 0 auto;
+   max-width: 75.5rem;
+}
+.main-menu__items {
+   display: flex;
+   justify-content: space-between;
+}
+.main-menu__item {
+   font-size: 1.125rem;
+   line-height: 1.75rem;
+}
+.main-menu__link {
+   color: #7F7E83;
+}
+
+.main-menu__sub-menu {
+}
+.sub-menu {
+   display: none;
+}
+.sub-menu__items {
+}
+.sub-menu__link {
+}

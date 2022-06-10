@@ -1,0 +1,77 @@
+.block-1 {
+   background: white;
+   
+}
+.block-1__container {
+   padding: 0 40px;
+   @media (max-width: 64em) {
+      padding: 0 20px;
+   }
+   margin: 0 auto;
+   max-width: 75.5rem;
+   position: relative;
+   overflow: hidden;
+}
+.block-1__title {
+   font-family: 'IBM Plex Serif', serif;
+   font-weight: 600;
+   font-size: 4.25rem;
+   line-height: 5.125rem;
+   color: #3F3E42;
+   padding: 76px 0 240px;
+}
+
+.block-1__title--top {
+   position: relative;
+   z-index: 1;
+   display: inline-block;
+}
+
+.block-1__title--top:after {
+   content: '';
+   position: absolute;
+   bottom: 11px;
+   left: 0;
+   width: 100%;
+   height: 12px;
+   background-color: #BCE0D0;
+   border-radius: 6px;
+   z-index: -1;
+}
+
+.block-1__title--top:before {
+   content: url("../img/block-1/02.svg");
+   position: absolute;
+   top: -40px;
+   right: -35px;
+}
+
+.block-1__title--bottom {
+   position: relative;
+}
+
+.block-1__title--bottom:after {
+   content: url("../img/block-1/03.svg");;
+   position: absolute;
+   bottom: -10px;
+   left: -35px;
+}
+
+.block-1__title--bottom:before {
+   content: url("../img/block-1/04.svg");
+   position: absolute;
+   bottom: -60px;
+   left: -25px;
+}
+
+.block-1__image {
+   position: absolute;
+   top: 100px;
+   right: 94px;
+}
+
+.block-1__image img {
+   position: absolute;
+   top: -60px;
+   right: 44px;
+}
